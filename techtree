@@ -1,0 +1,152 @@
+tech tree:
+
+TIER 0:
+research:
+- automation			(assembly 1)
+	- logistics		(long inserter, underground belt, splitter)
+	- optics		(light)
+
+- military			(machine gun)
+	- bullet upgrade	
+	- armor making		(armor)
+	- turrets		(turrets)
+		- turret upgrade
+	- walls			(stone bricks, walls)
+
+
+needs to unlock:
+x stone bricks 
+x long inserter
+x basic assembly
+x underground belt
+x splitter
+x machinegun
+x armor
+x turrets
+x lamps
+x walls
+
+TIER 1:	
+research:
+- automation 2	[from automation1]			(assembly 2, science pack2)
+	- electronics					(fast inserter)
+		- basic circuitry			(smart inserter)
+	- steel						(steel smelting, steel axe, steel chest)
+		- advanced material processing		(steel furnace)
+		- military 2 				(piercing ammo)
+			- armor making 2 [with armor-making]	(heavy armor)
+			- gates	[with walls]		(gates)
+		- automobilism				(engine, car)
+
+needs to unlock:
+x engine 
+x steel 
+x science pack 2
+x assembly 2
+x smart inserter
+x steel chest
+x fast inserter
+x heavy armor
+x steel axe
+x steel furnace
+x cars
+x piercing ammo
+x gates
+
+
+
+TIER 2:
+automation 3								(assembly factory 3, science pack 3)
+	oil processing							(pumpjack, refinery, chemistry, solid fuel)
+		military 3						(shotgun)
+			shotgun shell upgrades
+			flamethrowers					(flamethrower + ammo)
+				flamethrower upgrades?
+			explosive weapons				(sulfur, explosives, grenades)
+				rocket weapons				(rocket launcher, rockets)
+					rocket weapon upgrades
+		advanced electronics					(plastic, advanced circuit)
+			advanced materials processing 2			(electric furnace)
+			basic modules					(nothing :( )
+				speed					(speed module)
+				productivity				(prod module)
+				efficiency				(eff module)
+
+	solar energy							(solar plant)
+		energy storage						(batteries, accumulators)
+
+	logistics 2							(fast belt, fast underground, fast splitter)
+		electricty distribution					(large poles)
+		smart circuitry						(smart chest, red/green wire)
+			logic gates					(decider/combinator)
+
+	trains								(locomotive, rails)
+		train transport						(cargo wagon, stations)
+
+	concrete							(concrete)
+
+needs to unlock:
+x science pack 3(u)
+x assembly 3(u)
+x pumpjack / refinery / chemistry / solid fuel
+x train, rails
+x cargo wagon, train station
+x circuitry, smart chest
+x deciders/combinators
+x fast belts/underground/splitter
+x shotguns
+x flamethrower
+x rocket launcher
+x modules 1
+x electric furnace
+x solar energy
+x larger poles
+x accumulators
+x concrete
+x plastic (advanced circuits, ?)
+x advanced circuits (modules, electric furnaces, blueprints, robots, ?, TIER 2)
+x sulfur (explosives, TIER2, batteries)
+x batteries (accumulators, robots, laser turrets, TIER2)
+x explosives (rockets, capsules, TIER2)
+
+
+TIER 3:
+research:
+
+automation 4							(science pack 4)
+	logistics 3						(express belts/underground/splitter)
+		speed						(speed module)
+		productivity					(prod module)
+		efficiency					(eff module)
+
+	military 4						(capsules? improved shotgun?)
+		laser turrets					(laser turrets)
+		tanks						(tanks, shells)
+
+	robotics						(electric engine, flying frame)
+		construction					(construction robots)	
+			blueprints				(blueprint, deconstruction print)
+		logistics					(logistics robots)
+			logistics network			(active/requester chest)
+
+		
+	energy distribution 2					(substation)
+	
+
+needs to unlock
+x science pack 4(u)
+x logistics robots
+x construction robots
+x blueprints
+x active/requester chests
+x express belts
+x tanks
+x laser turrets
+x modules 2
+ substations
+x beacon
+x electric engine (robots, TIER3)
+x flying frames (robots, TIER3)
+ processors (modules 2, modular armor, TIER 3?)
+
+TIER 4:

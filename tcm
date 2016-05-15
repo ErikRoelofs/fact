@@ -1,0 +1,241 @@
+-> Free tech is possible.
+
+-> all tech to 25
+-> increase build times of large devices
+-> include tier-ups with huge science requirement (in a new color)
+
+definers of manufactoring ability: assembly factories
+TIER 0: up to 2
+TIER 1: up to 4
+TIER 2: up to 6
+TIER 3: up to 6
+TIER 4: up to 6
+
+TIER 0:
+- mines (s)
+- stone furnace (s)
+- pump/pipe (also underground)/boiler/steam engine (all s)
+- small poles (s)
+- burner(s)/regular(s) inserters
+- basic belts(s)
+- pistol(s)
+- basic ammo(s)
+- lab(s)
+- science pack 1(s)
+- wooden(s)/iron chest(s)
+- iron axe(s)
+- repair kit(s?)
+- radar(s?)
+1 long inserter
+2 basic assembly
+3 underground belt
+4 splitter
+5 machinegun
+6 armor
+7 turrets
+8 lamps
+9 walls
+[9 researchable features]
+
+TIER 1: (requires lots of red)
+- science pack 2(u)
+- assembly 2(u)
+1 smart inserter
+2 steel chest
+3 fast inserter
+4 heavy armor
+5 steel axe
+6 steel furnace
+7 cars
+8 piercing ammo
+9 gates
+[9 researchable features]
+
+TIER 2: (requires lots of green)
+- science pack 3(u)
+- assembly 3(u)
+1 pumpjack / refinery / chemistry / solid fuel
+2 train, rails
+3 cargo wagon, train station
+4 circuitry, smart chest
+5 deciders/combinators
+6 fast belts/underground/splitter
+7 shotguns
+8 flamethrower
+9 rocket launcher
+10 modules 1
+11 electric furnace
+12 solar energy
+13 larger poles
+14 accumulators
+15 concrete
+[15 researchable features]
+
+TIER 3: (requires lots of blue)
+- science pack 4(u)
+1 logistics robots
+2 construction robots
+3 blueprints
+4 active/requester chests
+5 express belts
+6 tanks
+7 laser turrets
+8 modules 2
+9 substations
+10 beacon
+[10 researchable features]
+
+TIER 4: (requires lots of purple)
+1 the rocket (+ parts)
+2 modules 3
+[2 researchable features]
+
+UNKNOWN
+- capsules (grenades, defender, poison, slowdown, distractor, destroyer)
+- modular armor (nightvision, battery, battery mkII, exoskeleton, solar panel, fusion reactor, laser defense, discharge defense, personal roboport, shield, shield mkII, )
+- landmines
+- rail signals
+
+INTERMEDIATES
+? circuits (pump, factory, inserters, START)
+? sticks (iron axe, lamp, rails, START)
+? copper cable (circuits, posts, START)
+? gear wheel (inserters, START)
+? wood (chests, poles, START)
+
+? stone bricks (adv furnaces, walls, TIER 0)
+
+? engine (cars, tanks, trains, TIER1)
+? steel (steel axe, chest, furnaces, TIER1)
+
+? plastic (advanced circuits, ?)
+? advanced circuits (modules, electric furnaces, blueprints, robots, ?, TIER 2)
+? sulfur (explosives, TIER2, batteries)
+? batteries (accumulators, robots, laser turrets, TIER2)
+? explosives (rockets, capsules, TIER2)
+
+? electric engine (robots, TIER3)
+? flying frames (robots, TIER3)
+? processors (modules 2, modular armor, TIER 3?)
+
+TODO:
+rocket parts, research, recipe, etc
+
+
+
+RESEARCHES:
+- roll double weapon/turret upgrades into 1
+	-> "bullet effectiveness" -> +firepower, +firespeed
+- roll some into other research?
+
+UPGRADES
+weapons:
+- bullets x2
+- shells x2
+- rockets x2
+- turrets
+- laser turrets x2
+(no flamethrower?)
+robots:
+- robot damage
+- follower counter
+- logistics speed
+- logistics size
+character:
+- logistics
+- trash
+- toolbelt
+buildings:
+- lab efficiency
+- inserter stack
+
+
+USEFUL RESEARCH
+1) - steel processing	-> steel smelting, steel chest, steel axe
+0) - military 1		-> machinegun, shotgun, shells
+- military 2		-> piercing ammo, grenades?
+- military 3		-> combat shotgun, rocket launcher, rocket
+- military 4		-> piercing shells
+K0>1) - automation 1
+K1>2) - automation 2
+K2>3)- automation 3
+- electronics
+- landmines
+- flamethrower
+K - circuit network
+K logistics 1
+K logistics 2
+K logistics 3
+- railway
+K automated railway
+- rail signals
+- automobilism
+- tanks
+- optics
+K solar energy
+- rocketry
+- explosive rocketry
+- armor making 1
+- armor making 2
+- armor making 3
+- power armor 1
+- power armor 2
+K turrets
+- laser turrets
+- stone walls
+- gates
+- alien technology
+- rocket-silo?
+- energy distribution 1
+- energy distribution 2
+K accumulators
+- advanced material processing 1
+- advanced material processing 2
+- concrete
+K effect transmission
+- battery
+- fluid handling
+K oil processing
+- advanced oil processing
+K combat robotics 1
+- combat robotics 2
+- combat robotics 3
+K modules 1x3
+- modules 2x3
+- modules 3x3
+K logistics robots
+K construction robots
+K blueprints
+K logistics network
+
+"POINTLESS" RESEARCH
+- explosives
+- flammables
+- laser
+- advanced electronics
+- flying
+- robotics
+- engine
+- electric engine
+- sulfur processing
+- plastics
+- modules (initial)
+
+IFFY RESEARCH
+- the modular armor upgrades before you can get a complete set
+- research that only unlocks an intermediate
+
+SCIENCE PACKS:
+1) copper plate + gear wheel (very simple)
+2) transport belt + basic inserter (fairly simple)			-> make a little harder?
+3) steel + advanced circuit + battery + smart inserter (very hard)	-> make a little easier?
+4) alien artefact (super simple?)					-> make really, really hard?
+									-> upgradable science packs?
+e
+
+FE
+
+1) copper plate + gear wheel
+2) 2x science pack 1 + transport belt + basic inserter
+3) 2x science pack 2 + steel + advanced circuit
+4) 2x science pack 3 + battery + alien artefact
