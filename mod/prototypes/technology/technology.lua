@@ -229,7 +229,7 @@ data:extend(
     prerequisites = {"sulfur-processing"},
     unit =
     {
-      count = 60
+      count = 60,
       ingredients =
       {
         {"science-pack-1", 1},
