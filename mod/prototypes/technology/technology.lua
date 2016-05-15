@@ -417,7 +417,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "long-inserter"
+        recipe = "long-handed-inserter"
       },
       {
         type = "unlock-recipe",
