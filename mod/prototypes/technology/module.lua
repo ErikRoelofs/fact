@@ -7,7 +7,7 @@ data:extend(
     prerequisites = {"advanced-electronics"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},

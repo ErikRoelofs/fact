@@ -340,7 +340,27 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "green-wire"
+      }
+    },
+    prerequisites = {"logistics-2"},
+    unit =
+    {
+      count = 25,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1}
       },
+      time = 15
+    },
+    order = "a-d-d",
+  },
+   {
+    type = "technology",
+    name = "circuit-network-2",
+    icon = "__base__/graphics/technology/circuit-network.png",
+    effects =
+    {
       {
         type = "unlock-recipe",
         recipe = "arithmetic-combinator"
@@ -354,10 +374,10 @@ data:extend(
         recipe = "constant-combinator"
       }
     },
-    prerequisites = {"electronics"},
+    prerequisites = {"circuit-network"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -365,7 +385,7 @@ data:extend(
       },
       time = 15
     },
-    order = "a-d-d",
+    order = "a-d-e",
   },
   {
     type = "technology",
@@ -459,10 +479,10 @@ data:extend(
         recipe = "diesel-locomotive"
       }
     },
-    prerequisites = {"logistics-2", "steel-processing", "engine"},
+    prerequisites = {"automation-3", "automobilism"},
     unit =
     {
-      count = 70,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 2},
@@ -490,7 +510,7 @@ data:extend(
     prerequisites = {"railway"},
     unit =
     {
-      count = 70,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 2},
@@ -608,10 +628,10 @@ data:extend(
         recipe = "fast-splitter"
       }
     },
-    prerequisites = {"logistics"},
+    prerequisites = {"automation-3"},
     unit =
     {
-      count = 40,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -685,10 +705,10 @@ data:extend(
         recipe = "solar-panel"
       }
     },
-    prerequisites = {"optics", "advanced-electronics", "steel-processing"},
+    prerequisites = {"automation-3"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1184,10 +1204,10 @@ data:extend(
         recipe = "big-electric-pole"
       }
     },
-    prerequisites = {"electronics", "steel-processing"},
+    prerequisites = {"logistics-2"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1231,12 +1251,16 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "basic-accumulator"
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "battery"
+      },
     },
-    prerequisites = {"electric-energy-distribution-1", "battery"},
+    prerequisites = {"solar-energy", "explosives"},
     unit =
     {
-      count = 60,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1401,10 +1425,10 @@ data:extend(
     type = "technology",
     name = "concrete",
     icon = "__base__/graphics/technology/concrete.png",
-    prerequisites = {"advanced-material-processing-2"},
+    prerequisites = {"automation-3"},
     unit =
     {
-      count = 250,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},

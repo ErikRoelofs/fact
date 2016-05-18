@@ -56,7 +56,7 @@ x gates
 
 
 TIER 2:
-automation 3	(tech req unknown!!!)					(assembly factory 3, science pack 3)
+automation 3	(tech req unknown!!! basic circ + steel?)		(assembly factory 3, science pack 3)
 	oil processing							(pumpjack, refinery, chemistry, solid fuel, ?lube?)
 		military 3						(shotgun?)
 			shotgun shell upgrades
@@ -73,7 +73,7 @@ automation 3	(tech req unknown!!!)					(assembly factory 3, science pack 3)
 				efficiency				(eff module)
 
 	solar energy							(solar plant)
-		energy storage						(batteries, accumulators)
+		energy storage (explosives)				(batteries, accumulators)
 
 	logistics 2							(fast belt, fast underground, fast splitter)
 		electricty distribution					(large poles)
