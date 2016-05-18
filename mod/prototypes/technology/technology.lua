@@ -226,7 +226,7 @@ data:extend(
     type = "technology",
     name = "explosives",
     icon = "__base__/graphics/technology/explosives.png",
-    prerequisites = {"sulfur-processing"},
+    prerequisites = {"military-3"},
     unit =
     {
       count = 25,
@@ -402,7 +402,7 @@ data:extend(
         recipe = "plastic-bar"
       },
     },
-    prerequisites = {"electronics"},
+    prerequisites = {"oil-processing"},
     unit =
     {
       count = 40,
@@ -1250,11 +1250,15 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-accumulator"
+        recipe = "sulfuric-acid"
       },
       {
         type = "unlock-recipe",
         recipe = "battery"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "basic-accumulator"
       },
     },
     prerequisites = {"solar-energy", "explosives"},
