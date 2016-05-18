@@ -187,10 +187,6 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-2"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "science-pack-2"
       }
     },
     prerequisites = {"automation"},
@@ -214,7 +210,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "science-pack-3"
+        recipe = "science-pack-2"
       }
     },
     prerequisites = {"automation-2"},
@@ -234,7 +230,7 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "alien-science-pack"
+        recipe = "science-pack-3"
       }
     },
     prerequisites = {"automation-3"},
@@ -653,7 +649,7 @@ data:extend(
     prerequisites = {"automation-4"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
