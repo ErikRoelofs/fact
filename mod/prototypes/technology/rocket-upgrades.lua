@@ -17,7 +17,7 @@ data:extend(
         modifier = "0.2"
       }
     },
-    prerequisites = {"rocketry", "alien-technology"},
+    prerequisites = {"rocketry"},
     unit =
     {
       count = 200,

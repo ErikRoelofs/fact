@@ -52,7 +52,7 @@ data:extend(
         recipe = "speed-module-2"
       }
     },
-    prerequisites = {"speed-module"},
+    prerequisites = {"speed-module", "logistics-3"},
     unit =
     {
       count = 75,
@@ -129,7 +129,7 @@ data:extend(
         recipe = "productivity-module-2"
       }
     },
-    prerequisites = {"productivity-module"},
+    prerequisites = {"productivity-module", "logistics-3"},
     unit =
     {
       count = 75,
@@ -206,7 +206,7 @@ data:extend(
         recipe = "effectivity-module-2"
       }
     },
-    prerequisites = {"effectivity-module"},
+    prerequisites = {"effectivity-module", "logistics-3"},
     unit =
     {
       count = 75,

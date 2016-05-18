@@ -119,11 +119,15 @@ data:extend(
         type = "unlock-recipe",
         recipe = "piercing-shotgun-shell"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "combat-shotgun"
+      },
     },
-    prerequisites = {"military-3"},
+    prerequisites = {"automation-4"},
     unit =
     {
-      count = 150,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -224,6 +228,26 @@ data:extend(
   },
   {
     type = "technology",
+    name = "automation-4",
+    icon = "__base__/graphics/technology/automation.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "alien-science-pack"
+      }
+    },
+    prerequisites = {"automation-3"},
+    unit =
+    {
+      count = 25,
+      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      time = 60
+    },
+    order = "a-b-c"
+  },
+  {
+    type = "technology",
     name = "explosives",
     icon = "__base__/graphics/technology/explosives.png",
     prerequisites = {"military-3"},
@@ -253,23 +277,6 @@ data:extend(
       }
     },
     order = "a-e-d"
-  },
-  {
-    type = "technology",
-    name = "flammables",
-    icon = "__base__/graphics/technology/flammables.png",
-    prerequisites = {"oil-processing"},
-    unit =
-    {
-      count = 60,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
-      },
-      time = 15
-    },
-    order = "e-c-a"
   },
   {
     type = "technology",
@@ -414,23 +421,6 @@ data:extend(
       time = 15
     },
     order = "a-d-b",
-  },
-  {
-    type = "technology",
-    name = "advanced-electronics-2",
-    icon = "__base__/graphics/technology/advanced-electronics-2.png",
-    prerequisites = {"advanced-electronics"},
-    unit =
-    {
-      count = 100,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
-      },
-      time = 30
-    },
-    order = "a-d-c",
   },
   {
     type = "technology",
@@ -595,10 +585,10 @@ data:extend(
         recipe = "explosive-cannon-shell"
       },
     },
-    prerequisites = {"automobilism", "military-3"},
+    prerequisites = {"military-4"},
     unit =
     {
-      count = 20,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -660,7 +650,7 @@ data:extend(
         recipe = "express-splitter"
       }
     },
-    prerequisites = {"logistics-2", "automation-3"},
+    prerequisites = {"automation-4"},
     unit =
     {
       count = 100,
@@ -717,23 +707,6 @@ data:extend(
       time = 30
     },
     order = "a-h-c",
-  },
-  {
-    type = "technology",
-    name = "laser",
-    icon = "__base__/graphics/technology/laser.png",
-    prerequisites = {"optics", "advanced-electronics"},
-    unit =
-    {
-      count = 50,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
-      },
-      time = 30
-    },
-    order = "a-h-b",
   },
   {
     type = "technology",
@@ -859,7 +832,7 @@ data:extend(
         recipe = "power-armor"
       }
     },
-    prerequisites = {"armor-making-3", "electric-engine"},
+    prerequisites = {"armor-making-3"},
     unit =
     {
       count = 100,
@@ -879,7 +852,7 @@ data:extend(
         recipe = "power-armor-mk2"
       }
     },
-    prerequisites = {"power-armor", "alien-technology", "speed-module-3", "effectivity-module-3"},
+    prerequisites = {"power-armor", "speed-module-3", "effectivity-module-3"},
     unit =
     {
       count = 150,
@@ -919,10 +892,10 @@ data:extend(
         recipe = "laser-turret"
       }
     },
-    prerequisites = {"turrets", "laser", "battery"},
+    prerequisites = {"military-4"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -978,29 +951,12 @@ data:extend(
   },
   {
     type = "technology",
-    name = "flying",
-    icon = "__base__/graphics/technology/flying.png",
-    prerequisites = {"electric-engine", "advanced-electronics"},
-    unit =
-    {
-      count = 200,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
-      },
-      time = 30
-    },
-    order = "c-h"
-  },
-  {
-    type = "technology",
     name = "robotics",
     icon = "__base__/graphics/technology/robotics.png",
-    prerequisites = {"advanced-electronics-2", "electric-engine", "battery"},
+    prerequisites = {"automation-4"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1013,33 +969,13 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "flying-robot-frame"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "electric-engine-unit"
       }
     },
     order = "c-i",
-  },
-  {
-    type = "technology",
-    name = "alien-technology",
-    icon = "__base__/graphics/technology/alien-technology.png",
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "alien-science-pack"
-      }
-    },
-    prerequisites = {"rocketry"},
-    unit =
-    {
-      count = 300,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
-      },
-      time = 30
-    },
-    order = "e-f"
   },
   {
     type = "technology",
@@ -1072,7 +1008,7 @@ data:extend(
         recipe = "satellite"
       }
     },
-    prerequisites = {"rocketry", "advanced-electronics-2", "rocket-effectiveness-5", "speed-module-3", "productivity-module-3"},
+    prerequisites = {"rocketry", "rocket-effectiveness-5", "speed-module-3", "productivity-module-3"},
     unit =
     {
       count = 1000,
@@ -1228,10 +1164,10 @@ data:extend(
         recipe = "substation"
       }
     },
-    prerequisites = {"electric-energy-distribution-1"},
+    prerequisites = {"automation-4"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1259,7 +1195,7 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "basic-accumulator"
-      },
+      }
     },
     prerequisites = {"solar-energy", "explosives"},
     unit =
@@ -1460,7 +1396,7 @@ data:extend(
         recipe = "basic-beacon"
       }
     },
-    prerequisites = {"modules", "advanced-electronics-2"},
+    prerequisites = {"modules"},
     unit =
     {
       count = 75,
@@ -1496,82 +1432,6 @@ data:extend(
       time = 30
     },
     order = "c-k-m"
-  },
-  {
-    type = "technology",
-    name = "engine",
-    icon = "__base__/graphics/technology/engine.png",
-    prerequisites = {"steel-processing", "automation-2"},
-    unit =
-    {
-      count = 50,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-      },
-      time = 15
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "engine-unit"
-      }
-    },
-    order = "b-a"
-  },
-  {
-    type = "technology",
-    name = "electric-engine",
-    icon = "__base__/graphics/technology/electric-engine.png",
-    prerequisites = {"engine", "advanced-electronics", "oil-processing"},
-    unit =
-    {
-      count = 50,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-      },
-      time = 25
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "electric-engine-unit"
-      }
-    },
-    order = "b-b"
-  },
-  {
-    type = "technology",
-    name = "battery",
-    icon = "__base__/graphics/technology/battery.png",
-    prerequisites = {"sulfur-processing"},
-    unit =
-    {
-      count = 50,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-      },
-      time = 25
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "battery"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "science-pack-3"
-      }
-    },
-    order = "b-c"
   }
 }
 )

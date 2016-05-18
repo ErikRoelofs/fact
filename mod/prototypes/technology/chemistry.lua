@@ -113,49 +113,5 @@ data:extend(
       time = 30
     },
     order = "d-b"
-  },
-  {
-    type = "technology",
-    name = "sulfur-processing",
-    icon = "__base__/graphics/technology/sulfur-processing.png",
-    prerequisites = {"oil-processing"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "sulfuric-acid"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "sulfur"
-      }
-    },
-    unit =
-    {
-      count = 100,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
-      time = 30
-    },
-    order = "d-c"
-  },
-  {
-    type = "technology",
-    name = "plastics",
-    icon = "__base__/graphics/technology/plastics.png",
-    prerequisites = {"oil-processing"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "plastic-bar"
-      }
-    },
-    unit =
-    {
-      count = 100,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
-      time = 30
-    },
-    order = "d-d"
   }
 })

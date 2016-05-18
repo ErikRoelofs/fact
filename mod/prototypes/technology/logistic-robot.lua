@@ -27,10 +27,10 @@ data:extend(
         modifier = 60 * 60 * 5
       }
     },
-    prerequisites = {"robotics", "flying"},
+    prerequisites = {"robotics"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -62,7 +62,7 @@ data:extend(
     prerequisites = {"construction-robotics"},
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -92,11 +92,10 @@ data:extend(
       }
     },
     prerequisites = {
-      "robotics",
-      "flying"
+      "robotics"
     },
     unit = {
-      count = 50,
+      count = 25,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -123,7 +122,7 @@ data:extend(
     },
     prerequisites = { "logistic-robotics"},
     unit = {
-      count = 150,
+      count = 25,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
