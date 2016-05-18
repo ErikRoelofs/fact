@@ -17,10 +17,10 @@ data:extend(
         modifier = "0.2"
       }
     },
-    prerequisites = {"military"},
+    prerequisites = {"military-3"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1}
@@ -50,7 +50,7 @@ data:extend(
     prerequisites = {"shotgun-shell-effectiveness-1"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -81,7 +81,7 @@ data:extend(
     prerequisites = {"shotgun-shell-effectiveness-2"},
     unit =
     {
-      count = 200,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -112,7 +112,7 @@ data:extend(
     prerequisites = {"shotgun-shell-effectiveness-3"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -144,7 +144,7 @@ data:extend(
     prerequisites = {"shotgun-shell-effectiveness-4"},
     unit =
     {
-      count = 200,
+      count = 25,
       ingredients =
       {
         {"alien-science-pack", 1},
@@ -177,7 +177,7 @@ data:extend(
     prerequisites = {"shotgun-shell-effectiveness-5"},
     unit =
     {
-      count = 300,
+      count = 25,
       ingredients =
       {
         {"alien-science-pack", 1},

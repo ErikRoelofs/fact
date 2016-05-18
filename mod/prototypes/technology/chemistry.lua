@@ -40,7 +40,7 @@ data:extend(
     type = "technology",
     name = "oil-processing",
     icon = "__base__/graphics/technology/oil-gathering.png",
-    prerequisites = {"steel-processing"},
+    prerequisites = {"automation-3"},
     effects =
     {
       {
@@ -78,7 +78,7 @@ data:extend(
     },
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },

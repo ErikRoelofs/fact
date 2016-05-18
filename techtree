@@ -11,7 +11,7 @@ research:
 	- armor making		(armor)
 	- turrets		(turrets)
 		- turret upgrade
-	- walls			(stone bricks, walls)
+	- walls			(walls)
 
 
 needs to unlock:
@@ -56,9 +56,9 @@ x gates
 
 
 TIER 2:
-automation 3								(assembly factory 3, science pack 3)
-	oil processing							(pumpjack, refinery, chemistry, solid fuel)
-		military 3						(shotgun)
+automation 3	(tech req unknown!!!)					(assembly factory 3, science pack 3)
+	oil processing							(pumpjack, refinery, chemistry, solid fuel, ?lube?)
+		military 3						(shotgun?)
 			shotgun shell upgrades
 			flamethrowers					(flamethrower + ammo)
 				flamethrower upgrades?

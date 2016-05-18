@@ -88,21 +88,17 @@ data:extend(
       },]]--
       {
         type = "unlock-recipe",
-        recipe = "poison-capsule"
+        recipe = "shotgun"
       },
       {
         type = "unlock-recipe",
-        recipe = "slowdown-capsule"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "combat-shotgun"
+        recipe = "shotgun-shell"
       }
     },
-    prerequisites = {"military-2", "laser", "rocketry"},
+    prerequisites = {"oil-processing"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -211,12 +207,16 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-3"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "science-pack-3"
       }
     },
-    prerequisites = {"speed-module", "automation-2"},
+    prerequisites = {"automation-2"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
       time = 60
     },
@@ -229,7 +229,7 @@ data:extend(
     prerequisites = {"sulfur-processing"},
     unit =
     {
-      count = 60,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -241,7 +241,15 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "basic-grenade"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "explosives"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "sulfur"
       }
     },
     order = "a-e-d"
@@ -302,10 +310,10 @@ data:extend(
         recipe = "flame-thrower-ammo"
       }
     },
-    prerequisites = {"flammables", "military-2"},
+    prerequisites = {"military-3"},
     unit =
     {
-      count = 20,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -371,8 +379,8 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "processing-unit"
-      }
+        recipe = "plastic-bar"
+      },
     },
     prerequisites = {"electronics"},
     unit =
@@ -538,7 +546,7 @@ data:extend(
     prerequisites = {"steel-processing"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 2},
@@ -722,10 +730,10 @@ data:extend(
         recipe = "rocket"
       }
     },
-    prerequisites = {"electronics", "flammables", "explosives"},
+    prerequisites = {"explosives"},
     unit =
     {
-      count = 80,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -749,7 +757,7 @@ data:extend(
     prerequisites = {"rocketry"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -794,7 +802,7 @@ data:extend(
     prerequisites = {"military-2", "armor-making"},
     unit =
     {
-      count = 30,
+      count = 25,
       ingredients = {{"science-pack-1", 1}},
       time = 30
     },
@@ -938,7 +946,7 @@ data:extend(
     prerequisites = {"stone-walls", "military-2"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -1376,7 +1384,7 @@ data:extend(
         recipe = "electric-furnace"
       }
     },
-    prerequisites = {"advanced-material-processing", "advanced-electronics"},
+    prerequisites = {"advanced-electronics"},
     unit =
     {
       count = 100,
