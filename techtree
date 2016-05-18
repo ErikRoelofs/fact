@@ -28,7 +28,7 @@ x walls
 
 TIER 1:	
 research:
-- automation 2	[from automation1]			(assembly 2, science pack2)
+- automation 2	[from automation1]			(assembly 2)
 	- electronics					(fast inserter)
 		- basic circuitry			(smart inserter)
 	- steel						(steel smelting, steel axe, steel chest)
@@ -56,7 +56,7 @@ x gates
 
 
 TIER 2:
-automation 3	(tech req unknown!!! basic circ + steel?)		(assembly factory 3, science pack 3)
+automation 3	(automobilism)						(assembly factory 3, science pack 2)
 	oil processing							(pumpjack, refinery, chemistry, solid fuel, ?lube?)
 		military 3						(shotgun?)
 			shotgun shell upgrades
@@ -113,7 +113,7 @@ x explosives (rockets, capsules, TIER2)
 TIER 3: >>>>>>>>
 research:
 
-automation 4							(science pack 4)
+automation 4							(science pack 3)
 	logistics 3						(express belts/underground/splitter)
 		speed						(speed module)
 		productivity					(prod module)
@@ -149,4 +149,4 @@ x electric engine (robots, TIER3)
 x flying frames (robots, TIER3)
  processors (modules 2, modular armor, TIER 3?)
 
-TIER 4:
+TIER 4:	(science pack 4)
