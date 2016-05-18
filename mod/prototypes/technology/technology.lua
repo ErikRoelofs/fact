@@ -213,7 +213,7 @@ data:extend(
         recipe = "science-pack-2"
       }
     },
-    prerequisites = {"automation-2"},
+    prerequisites = {"automobilism"},
     unit =
     {
       count = 25,
@@ -233,7 +233,7 @@ data:extend(
         recipe = "science-pack-3"
       }
     },
-    prerequisites = {"automation-3"},
+    prerequisites = {"advanced-electronics", "explosives"},
     unit =
     {
       count = 25,
@@ -334,6 +334,30 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "smart-inserter"
+      },
+    },
+	 prerequisites = {"electronics"},
+		unit =
+		{
+		  count = 25,
+		  ingredients =
+		  {
+			{"science-pack-1", 1},
+			{"science-pack-2", 1}
+		  },
+		  time = 15
+		},
+	order = "a-d-d",
+   },
+   {
+    type = "technology",
+    name = "circuit-network-2",
+    icon = "__base__/graphics/technology/circuit-network.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
         recipe = "smart-chest"
       },
       {
@@ -345,7 +369,7 @@ data:extend(
         recipe = "green-wire"
       }
     },
-    prerequisites = {"logistics-2"},
+    prerequisites = {"logistics-2", "circuit-network"},
     unit =
     {
       count = 25,
@@ -360,7 +384,7 @@ data:extend(
   },
    {
     type = "technology",
-    name = "circuit-network-2",
+    name = "circuit-network-3",
     icon = "__base__/graphics/technology/circuit-network.png",
     effects =
     {
@@ -377,7 +401,7 @@ data:extend(
         recipe = "constant-combinator"
       }
     },
-    prerequisites = {"circuit-network"},
+    prerequisites = {"circuit-network-2"},
     unit =
     {
       count = 25,
@@ -465,7 +489,7 @@ data:extend(
         recipe = "diesel-locomotive"
       }
     },
-    prerequisites = {"automation-3", "automobilism"},
+    prerequisites = {"automation-3"},
     unit =
     {
       count = 25,
@@ -649,7 +673,7 @@ data:extend(
     prerequisites = {"automation-4"},
     unit =
     {
-      count = 25,
+      count = 100,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -949,7 +973,7 @@ data:extend(
     type = "technology",
     name = "robotics",
     icon = "__base__/graphics/technology/robotics.png",
-    prerequisites = {"automation-4"},
+    prerequisites = {"automation-4", "electric-energy-accumulators-1"},
     unit =
     {
       count = 25,
