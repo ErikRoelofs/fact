@@ -343,11 +343,11 @@ data:extend(
     type = "recipe",
     name = "science-pack-2",
     enabled = false,
-    energy_required = 6,
+    energy_required = 8,
     ingredients =
     {
-      {"basic-inserter", 1},
-      {"basic-transport-belt", 1}
+      {"science-pack-1", 2},
+      {"engine-unit", 1}
     },
     result = "science-pack-2"
   },
@@ -358,10 +358,9 @@ data:extend(
     energy_required = 12,
     ingredients =
     {
-      {"battery", 1},
+      {"science-pack-2", 2},
       {"advanced-circuit", 1},
-      {"smart-inserter", 1},
-      {"steel-plate", 1},
+      {"explosives", 1}
     },
     result = "science-pack-3"
   },
@@ -369,11 +368,15 @@ data:extend(
     type = "recipe",
     name = "alien-science-pack",
     enabled = false,
-    energy_required = 12,
-    ingredients = {{"alien-artifact", 1}
+    energy_required = 40,
+    ingredients = {
+    	{"science-pack-3", 10},
+    	{"electric-engine-unit", 5},
+    	{"battery", 20},
+    	{"alien-artifact", 1}
     },
     result = "alien-science-pack",
-    result_count = 10
+    result_count = 5
   },
   {
     type = "recipe",
