@@ -55,7 +55,7 @@ data:extend(
     prerequisites = {"speed-module", "logistics-3"},
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -81,13 +81,12 @@ data:extend(
     prerequisites = {"speed-module-2"},
     unit =
     {
-      count = 300,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"science-pack-3", 1}
       },
       time = 60
     },
@@ -108,7 +107,7 @@ data:extend(
     prerequisites = {"modules"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -132,7 +131,7 @@ data:extend(
     prerequisites = {"productivity-module", "logistics-3"},
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -158,13 +157,12 @@ data:extend(
     prerequisites = {"productivity-module-2"},
     unit =
     {
-      count = 300,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"science-pack-3", 1}
       },
       time = 60
     },
@@ -185,7 +183,7 @@ data:extend(
     prerequisites = {"modules"},
     unit =
     {
-      count = 50,
+      count = 25,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -209,7 +207,7 @@ data:extend(
     prerequisites = {"effectivity-module", "logistics-3"},
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -235,13 +233,12 @@ data:extend(
     prerequisites = {"effectivity-module-2"},
     unit =
     {
-      count = 300,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"science-pack-3", 1}
       },
       time = 60
     },

@@ -71,6 +71,7 @@ automation 3	(automobilism)						(assembly factory 3, science pack 2)
 				speed					(speed module)
 				productivity				(prod module)
 				efficiency				(eff module)
+		fluid handling						(barrels, liquid storage)
 
 	solar energy							(solar plant)
 		energy storage (explosives)				(batteries, accumulators)
@@ -82,6 +83,7 @@ automation 3	(automobilism)						(assembly factory 3, science pack 2)
 
 	trains								(locomotive, rails)
 		train transport						(cargo wagon, stations)
+			signals						(rail signals)
 
 	concrete							(concrete)
 
@@ -110,7 +112,7 @@ x batteries (accumulators, robots, laser turrets, TIER2)
 x explosives (rockets, capsules, TIER2)
 
 
-TIER 3: >>>>>>>>
+TIER 3: 
 research:
 
 automation 4							(science pack 3)
@@ -131,7 +133,7 @@ automation 4							(science pack 3)
 
 		
 	energy distribution 2					(substation)
-	
+	advanced oil processing					(cracking)
 
 needs to unlock
 x science pack 4(u)
@@ -143,10 +145,20 @@ x express belts
 x tanks
 x laser turrets
 x modules 2
- substations
+x substations
 x beacon
 x electric engine (robots, TIER3)
 x flying frames (robots, TIER3)
  processors (modules 2, modular armor, TIER 3?)
 
 TIER 4:	(science pack 4)
+
+needs to unlock:
+
+rocket
+
+total key techs:
+
+
+total min hours (no ups): +- 80
+25 hours / 1 hour: 45s average

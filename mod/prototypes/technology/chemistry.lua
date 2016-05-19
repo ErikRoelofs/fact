@@ -30,7 +30,7 @@ data:extend(
     },
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },
@@ -88,7 +88,7 @@ data:extend(
     type = "technology",
     name = "advanced-oil-processing",
     icon = "__base__/graphics/technology/oil-processing.png",
-    prerequisites = {"oil-processing"},
+    prerequisites = {"automation-4"},
     effects =
     {
       {
@@ -106,7 +106,7 @@ data:extend(
     },
     unit =
     {
-      count = 75,
+      count = 25,
       ingredients = {{"science-pack-1", 1},
                      {"science-pack-2", 1},
                      {"science-pack-3", 1}},

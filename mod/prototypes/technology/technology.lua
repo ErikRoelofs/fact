@@ -23,7 +23,7 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {},
+      ingredients = {{"science-pack-1", 1}},
       time = 5
     },
     order = "c-a"
@@ -64,8 +64,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 1}
       },
       time = 15
     },
@@ -132,8 +131,7 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 2},
-        {"science-pack-3", 1},
-        {"alien-science-pack", 1},
+        {"science-pack-3", 1}
       },
       time = 45
     },
@@ -217,7 +215,10 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      ingredients = {
+      	{"science-pack-1", 1},
+      	{"science-pack-2", 1},
+      },
       time = 60
     },
     order = "a-b-c"
@@ -237,7 +238,10 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      ingredients = {
+      	{"science-pack-1", 1},
+      	{"science-pack-2", 1},
+      	{"science-pack-3", 1}},
       time = 60
     },
     order = "a-b-c"
@@ -363,8 +367,7 @@ data:extend(
 		  count = 25,
 		  ingredients =
 		  {
-			{"science-pack-1", 1},
-			{"science-pack-2", 1}
+			{"science-pack-1", 1}
 		  },
 		  time = 15
 		},
@@ -599,8 +602,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1}
+        {"science-pack-1", 2}
       },
       time = 20
     },
@@ -693,7 +695,7 @@ data:extend(
     prerequisites = {"automation-4"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -939,7 +941,8 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -982,8 +985,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 1}
       },
       time = 30
     },
@@ -1000,7 +1002,8 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -1370,8 +1373,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"science-pack-1", 1}
       },
       time = 30
     },
@@ -1391,7 +1393,7 @@ data:extend(
     prerequisites = {"advanced-electronics"},
     unit =
     {
-      count = 100,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},

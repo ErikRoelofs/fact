@@ -34,7 +34,8 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -66,7 +67,8 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -99,6 +101,7 @@ data:extend(
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -275,7 +278,7 @@ data:extend(
       "logistic-robotics"
     },
     unit = {
-      count = 200,
+      count = 25,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -300,9 +303,8 @@ data:extend(
       "logistic-robot-storage-1"
     },
     unit = {
-      count = 300,
+      count = 25,
       ingredients = {
-        {"alien-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1}
@@ -326,9 +328,8 @@ data:extend(
       "logistic-robot-storage-2"
     },
     unit = {
-      count = 450,
+      count = 25,
       ingredients = {
-        {"alien-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1}

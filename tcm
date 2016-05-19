@@ -70,7 +70,11 @@ TIER 2: (requires lots of green)
 13 larger poles
 14 accumulators
 15 concrete
-[15 researchable features]
+16 barrels
+17 liquid storage
+18 train signals
+19 cracking
+[19 researchable features]
 
 TIER 3: (requires lots of blue)
 - science pack 4(u)
@@ -95,8 +99,6 @@ UNKNOWN
 - capsules (grenades, defender, poison, slowdown, distractor, destroyer)
 - modular armor (nightvision, battery, battery mkII, exoskeleton, solar panel, fusion reactor, laser defense, discharge defense, personal roboport, shield, shield mkII, )
 - landmines
-- rail signals
-- barrels & fluid tank
 
 INTERMEDIATES
 ? circuits (pump, factory, inserters, START)
