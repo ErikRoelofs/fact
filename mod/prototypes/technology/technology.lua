@@ -244,6 +244,26 @@ data:extend(
   },
   {
     type = "technology",
+    name = "automation-5",
+    icon = "__base__/graphics/technology/automation.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "alien-science-pack"
+      }
+    },
+    prerequisites = {"automation-4"},
+    unit =
+    {
+      count = 25,
+      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      time = 60
+    },
+    order = "a-b-c"
+  },
+  {
+    type = "technology",
     name = "explosives",
     icon = "__base__/graphics/technology/explosives.png",
     prerequisites = {"military-3"},

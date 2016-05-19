@@ -347,7 +347,8 @@ data:extend(
     ingredients =
     {
       {"science-pack-1", 2},
-      {"engine-unit", 1}
+      {"electronic-circuit", 1},
+      {"steel-plate", 1}
     },
     result = "science-pack-2"
   },
