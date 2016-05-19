@@ -162,3 +162,132 @@ total key techs:
 
 total min hours (no ups): +- 80
 25 hours / 1 hour: 45s average
+
+tier 0: 
+- 7 core researches
+- assume 2 labs
+- should take around 10 minutes (exp player)
+- 600 / 7*13 = around 7 seconds per item
+
+
+- automation			1 ; 5
+	- logistics		1 ; 8
+	- optics		1 ; 8
+
+- military			1 ; 5
+	- bullet upgrade	 ?
+	- armor making		1 ; 8
+	- turrets		1 ; 8
+		- turret upgrade ?
+	- walls			1 ; 5				= 175
+
+
+tier 1:
+- 9 core researches
+- assume 5 labs
+- should take around 20 minutes (exp player)
+- around 25 seconds per item (with a bump for first)
+- around 1 bottle per 8 seconds per lab (ie; 1 factory per lab)
+ 
+- automation 2						8 ; 60	= 200
+	- electronics					3 ; 25	= 75
+		- basic circuitry			4 ; 30  = 100
+	- steel						2 ; 20  = 50
+		- advanced material processing		5 ; 45  = 125
+		- military 2 				3 ; 20  = 75
+			- armor making 2 		4 ; 30  = 100
+			- gates				4 ; 30  = 100
+		- automobilism				5 ; 30  = 125
+							-------
+								= 950 bottles, 290 base seconds
+
+tier 2:
+- 23 core researches
+- assume 5 labs
+- should take around 4 hours (exp player)
+- around 125 seconds per item (with a bump for first)
+- around 1 red bottle per 10 seconds per lab (0,5 factory) and around 1 green bottle per 24 seconds per lab (0,5 factory green + 1 red
+-> floating between 1:3 and 1:2 depending on research
+
+50  : 5 red, 2 green
+75  : 7.5 red, 3 green
+100 : 10 red, 4 green
+125 : 12.5 red, 5 green
+150 : 15 red, 6 green
+175 : 17.5 red, 7 green
+200 : 20 red, 8 green
+
+automation 3								25 	; 180	
+	oil processing							8,1   	; 75	
+		military 3						5,1	; 50
+			shotgun shell upgrades				 ?
+			flamethrowers					5,2	; 50
+				flamethrower upgrades?			
+			explosive weapons				10,4	; 100
+				rocket weapons				15,6	; 150
+					rocket weapon upgrades		 ?
+		advanced electronics					10,4	; 100
+			advanced materials processing 2			18,8	; 175
+			basic modules					8,3	; 75
+				speed					10,5	; 100
+				productivity				10,5	; 100
+				efficiency				10,5	; 100
+		fluid handling						5,1	; 50
+
+	solar energy							10,4	; 100
+		energy storage (explosives)				12,5	; 125
+
+	logistics 2							8,1	; 75
+		electricty distribution					12,5	; 125
+		smart circuitry						12,5	; 125
+			logic gates					8,3	; 75
+
+	trains								12,5	; 125
+		train transport						12,5	; 125
+			signals						12,5	; 125
+
+	concrete							15, 6	; 150
+
+									-------------
+									6150 red bottles...
+									2150  green bottles...
+									3085 seconds base (is about 4,5 hours)
+
+
+tier 3:
+- 18 core research
+- assume 9 labs
+- should take around 4 hours (exp player)
+- around 250 seconds base
+- around 1 red bottle per 10 seconds per lab (0,5 factory) and around 1 green bottle per 24 seconds per lab (0,5 factory green + 1 red, around 1 blue bottle per 60 seconds per lab (0,2 factory per lab)
+
++- 25/10/4
+
+10:3:1 , 10:5:2
+
+automation 4							60,20	; 360
+	logistics 3						25,10,1	; 240
+		speed2						20,10,4 ; 240
+		productivity2					20,10,4 ; 240
+		efficiency2					20,10,4 ; 240
+		speed3						40,20,8 ; 480
+		productivity3					40,20,8 ; 480
+		efficiency3					40,20,8 ; 480
+
+	military 4						20,8,1	; 200
+		laser turrets					30,10,3 ; 240
+		tanks						20,10,4 ; 210
+
+	robotics						15,5,2	; 150
+		construction					25,10,4	; 250
+			blueprints				25,10,4	; 300
+		logistics					25,10,4	; 250
+			logistics network			25,10,4	; 300
+
+		
+	energy distribution 2					30,15,6 ; 360
+	advanced oil processing					30,15,6 ; 360
+								----------------
+								12750 red bottles
+								5575 green bottles
+								1875 blue bottles

@@ -23,8 +23,8 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 1}},
-      time = 5
+      ingredients = {{"science-pack-1", 2}},
+      time = 20
     },
     order = "c-a"
   },
@@ -43,7 +43,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 15
+      time = 5
     },
     order = "e-a-a"
   },
@@ -64,9 +64,9 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1}
+        {"science-pack-1", 3}
       },
-      time = 15
+      time = 20
     },
     order = "e-a-b"
   },
@@ -100,11 +100,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 2},
-        {"science-pack-3", 1}
+        {"science-pack-1", 5},
+        {"science-pack-2", 1}
       },
-      time = 30
+      time = 50
     },
     order = "e-a-c"
   },
@@ -129,11 +128,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 2},
+        {"science-pack-1", 20},
+        {"science-pack-2", 8},
         {"science-pack-3", 1}
       },
-      time = 45
+      time = 200
     },
     order = "e-a-d"
   },
@@ -152,7 +151,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 10
+      time = 5
     },
     order = "a-b-a",
   },
@@ -171,8 +170,8 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 1}},
-      time = 15
+      ingredients = {{"science-pack-1", 3}},
+      time = 25
     },
     order = "a-d-a",
   },
@@ -191,8 +190,8 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 10}},
-      time = 15
+      ingredients = {{"science-pack-1", 8}},
+      time = 60
     },
     order = "a-b-b",
   },
@@ -216,10 +215,9 @@ data:extend(
     {
       count = 25,
       ingredients = {
-      	{"science-pack-1", 1},
-      	{"science-pack-2", 1},
+      	{"science-pack-1", 25}
       },
-      time = 60
+      time = 180
     },
     order = "a-b-c"
   },
@@ -239,10 +237,10 @@ data:extend(
     {
       count = 25,
       ingredients = {
-      	{"science-pack-1", 1},
-      	{"science-pack-2", 1},
-      	{"science-pack-3", 1}},
-      time = 60
+      	{"science-pack-1", 60},
+      	{"science-pack-2", 20}
+      },
+      time = 360
     },
     order = "a-b-c"
   },
@@ -276,10 +274,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 10},
+        {"science-pack-2", 4}
       },
-      time = 15
+      time = 100
     },
     effects =
     {
@@ -343,10 +341,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 5},
+        {"science-pack-2", 2}
       },
-      time = 15
+      time = 50
     },
     order = "e-c-b"
   },
@@ -367,9 +365,9 @@ data:extend(
 		  count = 25,
 		  ingredients =
 		  {
-			{"science-pack-1", 1}
+			{"science-pack-1", 4}
 		  },
-		  time = 15
+		  time = 30
 		},
 	order = "a-d-d",
    },
@@ -398,10 +396,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 12},
+        {"science-pack-2", 5}
       },
-      time = 15
+      time = 125
     },
     order = "a-d-d",
   },
@@ -430,10 +428,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 8},
+        {"science-pack-2", 3}
       },
-      time = 15
+      time = 75
     },
     order = "a-d-e",
   },
@@ -458,10 +456,10 @@ data:extend(
       count = 40,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 10},
+        {"science-pack-2", 4}
       },
-      time = 15
+      time = 100
     },
     order = "a-d-b",
   },
@@ -489,7 +487,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 15
+      time = 8
     },
     order = "a-f-a",
   },
@@ -518,10 +516,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1},
+        {"science-pack-1", 12},
+        {"science-pack-2", 5},
       },
-      time = 20
+      time = 125
     },
     order = "c-g-a",
   },
@@ -546,10 +544,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1},
+        {"science-pack-1", 12},
+        {"science-pack-2", 5},
       },
-      time = 20
+      time = 125
     },
     order = "c-g-b",
   },
@@ -574,10 +572,10 @@ data:extend(
       count = 150,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1},
+        {"science-pack-1", 12},
+        {"science-pack-2", 5},
       },
-      time = 30
+      time = 125
     },
     order = "c-g-c",
   },
@@ -602,9 +600,9 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 2}
+        {"science-pack-1", 5}
       },
-      time = 20
+      time = 30
     },
     order = "e-b"
   },
@@ -633,11 +631,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1", 20},
+        {"science-pack-2", 10},
+        {"science-pack-3", 4}
       },
-      time = 20
+      time = 210
     },
     order = "e-c-c"
   },
@@ -666,10 +664,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
+        {"science-pack-1", 8},
         {"science-pack-2", 1}
       },
-      time = 30
+      time = 75
     },
     order = "a-f-b",
   },
@@ -698,11 +696,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"science-pack-1", 25},
+        {"science-pack-2", 10},
         {"science-pack-3", 1}
       },
-      time = 15
+      time = 240
     },
     order = "a-f-c",
   },
@@ -722,7 +720,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 15
+      time = 8
     },
     order = "a-h-a",
   },
@@ -743,10 +741,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 10},
+        {"science-pack-2", 4}
       },
-      time = 30
+      time = 100
     },
     order = "a-h-c",
   },
@@ -771,10 +769,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 15},
+        {"science-pack-2", 6}
       },
-      time = 15
+      time = 150
     },
     order = "e-g"
   },
@@ -795,11 +793,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1", 15},
+        {"science-pack-2", 6}
       },
-      time = 20
+      time = 150
     },
     order = "e-h"
   },
@@ -819,7 +816,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 5
+      time = 8
     },
     order = "g-a-a"
   },
@@ -838,7 +835,7 @@ data:extend(
     unit =
     {
       count = 25,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"science-pack-1", 4}},
       time = 30
     },
     order = "g-a-b"
@@ -919,7 +916,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 10
+      time = 8
     },
     order = "a-j-a"
   },
@@ -940,11 +937,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1", 30},
+        {"science-pack-2", 10},
+        {"science-pack-3", 3}
       },
-      time = 30
+      time = 240
     },
     order = "a-j-b"
   },
@@ -964,7 +961,7 @@ data:extend(
     {
       count = 25,
       ingredients = {{"science-pack-1", 1}},
-      time = 10
+      time = 5
     },
     order = "a-k-a"
   },
@@ -985,7 +982,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1}
+        {"science-pack-1", 4}
       },
       time = 30
     },
@@ -1001,11 +998,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1", 15},
+        {"science-pack-2", 5},
+        {"science-pack-3", 2}
       },
-      time = 30
+      time = 150
     },
     effects =
     {
@@ -1189,10 +1186,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 12},
+        {"science-pack-2", 5}
       },
-      time = 30
+      time = 125
     },
     order = "c-e-b",
   },
@@ -1213,11 +1210,11 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1", 30},
+        {"science-pack-2", 15},
+        {"science-pack-3", 6}
       },
-      time = 45
+      time = 360
     },
     order = "c-e-c",
   },
@@ -1246,10 +1243,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-1", 12},
+        {"science-pack-2", 5}
       },
-      time = 30
+      time = 125
     },
     order = "c-e-a",
   },
@@ -1373,9 +1370,9 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1}
+        {"science-pack-1", 5}
       },
-      time = 30
+      time = 45
     },
     order = "c-c-a"
   },
@@ -1396,10 +1393,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"science-pack-1", 18},
+        {"science-pack-2", 8},
       },
-      time = 30
+      time = 175
     },
     order = "c-c-b"
   },
@@ -1413,10 +1410,10 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"science-pack-1", 15},
+        {"science-pack-2", 6},
       },
-      time = 30
+      time = 150
     },
     effects =
     {
